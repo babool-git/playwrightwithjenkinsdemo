@@ -27,7 +27,7 @@ export default defineConfig({
     
     ['html'],
     //['list'],
-    //['allure-playwright'],
+    ['allure-playwright'],
     //['dot'],
     //['json', {outputFile: './test-results/jsonresults.json'}],
     ['junit', {outputFile: './test-results/junit-testreport.xml'}],
