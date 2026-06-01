@@ -13,7 +13,7 @@ test.use({
     baseURL: process.env.BASE_API_URL,
 })
 
-test('Create DELETE api request using dynamic values', async ({ request }) => {
+test('Create DELETE api request using dynamic values',{tag:['@PlaywrightWithJenkins']}, async ({ request }) => {
 
     const filepath =path.join(__dirname,'../../test-data/api_requests/Dynamic_POST_API_Request.json');
     const jsonTemplate =fs.readFileSync(filepath, 'utf-8');
