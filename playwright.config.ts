@@ -30,7 +30,7 @@ export default defineConfig({
     //['allure-playwright'],
     //['dot'],
     //['json', {outputFile: './test-results/jsonresults.json'}],
-    //['junit', {outputFile: './test-results/junit-testreport.xml'}],
+    ['junit', {outputFile: './test-results/junit-testreport.xml'}],
   
   ] ,
 
